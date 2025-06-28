@@ -1,8 +1,8 @@
-function Product(){
+function Product({title, price}){
     return(
         <div>
-            <h1>This is product Title</h1>
-            <p>This is product decription </p>
+            <h1>Product Name : {title}</h1>
+            <p>Price of product : {price} </p>
         </div>
     )
 }

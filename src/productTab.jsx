@@ -1,10 +1,10 @@
 import Product from "./product"
 import Title from "./title"
 
-function producttab(){
+function producttab(props){
     return(
         <div>
-            <Product />
+            <Product title={props.title} price={props.price}/>
             <Title />
         </div>
         
