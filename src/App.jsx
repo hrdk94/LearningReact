@@ -5,6 +5,7 @@ import './App.css'
 import Product from './product.jsx'
 import Title from './title.jsx'
 import Producttab from './productTab.jsx'
+import MsgBox from './msgbox.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
   return (
     <>
       <div>
+        <MsgBox sender ="abc" receiver ="xyz" text ="hi there it is your msg.." />
         <Producttab title="phone" price="20000" features={options}/>
         <Producttab title="Laptop" price="50000" features={options}/>
         
