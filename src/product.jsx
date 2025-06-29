@@ -1,6 +1,6 @@
 function Product({title, price, features}){
     let styles = {
-    backgroundColor: "black",
+    backgroundColor: price>20000? "black": "green",
     borderRadius: 10,        
     color: "white",
   };
