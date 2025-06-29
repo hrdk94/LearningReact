@@ -5,7 +5,6 @@ function ProductTab({ title, price, features }) {
     return (
         <div>
             <Product title={title} price={price} features={features} />
-            <Title />
         </div>
     );
 }

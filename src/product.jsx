@@ -8,6 +8,7 @@ function Product({title, price, features}){
                     <li key={index}>{feature}</li>
                 ))}
             </ul>
+            {price>25000 ?  <p>Discount of 5%: {price - price * 0.05}</p> : null}
         </div>
     )
 }

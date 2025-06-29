@@ -13,6 +13,7 @@ function App() {
     <>
       <div>
         <Producttab title="phone" price="20000" features={options}/>
+        <Producttab title="Laptop" price="50000" features={options}/>
         
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
