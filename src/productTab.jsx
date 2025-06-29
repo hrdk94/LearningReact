@@ -1,14 +1,13 @@
-import Product from "./product"
-import Title from "./title"
+import Product from "./product";
+import Title from "./title";
 
-function producttab(props){
-    return(
+function ProductTab({ title, price, features }) {
+    return (
         <div>
-            <Product title={props.title} price={props.price}/>
+            <Product title={title} price={price} features={features} />
             <Title />
         </div>
-        
-    )
+    );
 }
 
-export default producttab;
+export default ProductTab;

@@ -8,11 +8,11 @@ import Producttab from './productTab.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  let options = ["option 1", "option 2"];
   return (
     <>
       <div>
-        <Producttab title="phone" price="20000"/>
+        <Producttab title="phone" price="20000" features={options}/>
         
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
