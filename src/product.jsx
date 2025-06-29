@@ -1,6 +1,11 @@
 function Product({title, price, features}){
+    let styles = {
+    backgroundColor: "black",
+    borderRadius: 10,        
+    color: "white",
+  };
     return(
-        <div>
+        <div style={styles}>
             <h1>Product Name : {title}</h1>
             <p>Price of product : {price} </p>
             <ul>
