@@ -4,7 +4,7 @@ function IncBox() {
   const [count, setCount] = useState(0);
 
   function incCount() {
-    setCount(count + 1);
+    setCount(count * 18 + 2);
   }
 
   return (
