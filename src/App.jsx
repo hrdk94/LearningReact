@@ -7,6 +7,7 @@ import Title from './title.jsx'
 import Producttab from './productTab.jsx'
 import MsgBox from './msgbox.jsx'
 import IncBox from './inc.jsx'
+import LudoB from './ludoBoard.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,13 @@ function App() {
   return (
     <>
       <div>
+        <LudoB />
+
+
+
+
+
+        <br /> <br /> <br /> <br />
         <IncBox />
         <MsgBox sender ="abc" receiver ="xyz" text ="hi there it is your msg.." />
         <Producttab title="phone" price="20000" features={options}/>
